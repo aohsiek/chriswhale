@@ -34,10 +34,9 @@ ul.sf-menu li span{
 	
 ul.sf-menu>li>a,
 ul.sf-menu>li>span{
-	font-size:16px;
+	font-size:14px;
 	line-height:22px;
 	padding:0;
-	font-family: 'Oswald', sans-serif;
 	letter-spacing:-1px;
 	-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;
 }
