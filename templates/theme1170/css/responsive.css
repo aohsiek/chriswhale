@@ -1,0 +1,358 @@
+html {
+  -webkit-text-size-adjust: none;
+  /* Prevent font scaling in landscape */
+}
+video {
+  max-width: 100%;
+  height: auto;
+}
+video {
+  max-width: 100%;
+  height: auto;
+}
+div.itemVideoEmbedded {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+div.itemVideoEmbedded iframe,
+div.itemVideoEmbedded object,
+div.itemVideoEmbedded embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 1024px) {
+  #body-wrapper .rt-block.totop {
+    display: none !important;
+  }
+}
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  /*Top*/
+  /*Header*/
+  /*Menu*/
+  /*Showcase*/
+  /*Maintop*/
+  /*Content*/
+  /*Edit button*/
+  
+
+.mb7-sa5 #rt-mainbody,.mb7-sa5 #rt-sidebar-a,.sa5-mb7 #rt-sidebar-a,.sa5-mb7 #rt-mainbody,.mb12 #rt-mainbody,.mb8-sa4 #rt-mainbody,.mb8-sa4 #rt-sidebar-a,.scientists .rt-block,.services .rt-block{padding:0 !important;}
+  #wrapper{width:768px !important;overflow:hidden;}
+  ul.sf-menu > li{margin:0 12px !important;}
+  ul.sf-menu > li:before{left:-12px !important;}
+  .services .moduleItemImage{width:200px;}
+  #rt-header input#mod-search-searchword{width:150px !important;}
+  .top_block a.moduleItemImage{width:430px;}
+  form#comment-form input.inputbox,form#comment-form textarea#commentText {
+  width: 399px;
+}
+  
+  span.catItemEditLink,
+  span.itemEditLink,
+  span.userItemEditLink {
+    display: none !important;
+  }
+  /*Forms*/
+  form dt {
+    margin: 0;
+  }
+  .k2AccountPage textarea#description {
+    width: 715px !important;
+  }
+  #contact-form-cont div.contact-form #contact-form input.required,
+  #contact-form-cont div.contact-form #contact-form textarea {
+    width: 245px;
+  }
+  /*Sidebar*/
+  /*Mainbottom*/
+  /*Bottom*/
+  /*Footer*/.rt-block.totop {
+    display: none !important;
+  }
+}
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.mb7-sa5 #rt-mainbody,.mb7-sa5 #rt-sidebar-a,.sa5-mb7 #rt-sidebar-a,.sa5-mb7 #rt-mainbody,.mb12 #rt-mainbody,.mb8-sa4 #rt-mainbody,.mb8-sa4 #rt-sidebar-a,.scientists .rt-block,.services .rt-block{padding:0 !important;}
+  #wrapper{width:480px !important;overflow:hidden;}
+  #rt-header .mod_search{margin:15px 0 0;}
+  .services .moduleItemImage{width:200px;}
+  #rt-header input#mod-search-searchword{width:370px !important;}
+  .top_block a.moduleItemImage{float:none;display:block !important;margin:0 0 20px !important;}
+  form#comment-form input.inputbox,form#comment-form textarea#commentText {
+  width: 327px;
+}
+#blog h3.catItemTitle, #blog h2.itemTitle, h3.userItemTitle{padding:0 !important}
+#search-searchword{width:300px;}
+  /*Top*/
+  /*Header*/
+  /*Menu*/
+  .sf-menu {
+    margin: 0;
+  }
+  .select-menu {
+    width: 100%;
+  }
+  /*Showcase*/
+  /*Maintop*/
+  /*Content*/
+  /*Images*/
+  #body-wrapper div.itemImageBlock,
+  div.userItemImageBlock {
+    float: none;
+  }
+  div.catItemImageBlock,
+  div.itemImageBlock {
+    margin: 0 0 1em 0;
+  }
+  span.catItemImage img,
+  span.itemImage img,
+  span.userItemImage img {
+    width: 100%;
+  }
+  span.catItemImage a,
+  span.itemImage a,
+  span.userItemImage a,
+  span.genericItemImage a {
+    display: block;
+  }
+  span.catItemImage a img,
+  span.itemImage a img,
+  span.userItemImage a img,
+  span.genericItemImage a img {
+    width: 100%;
+  }
+  span.userItemImage,
+  span.genericItemImage {
+    float: none;
+  }
+  /*Columns*/
+  div.itemContainer {
+    width: 100% !important;
+  }
+  /*Edit button*/
+  span.catItemEditLink,
+  span.itemEditLink,
+  span.userItemEditLink {
+    display: none !important;
+  }
+  /*Forms*/
+  #body-wrapper #contact-form-cont,
+  #body-wrapper #contact-address {
+    width: 100%;
+  }
+  .contact-form {
+    margin: 0;
+  }
+  form dt {
+    margin: 0;
+  }
+  /*INPUT FIELDS WIDTH*/
+  div.k2LoginBlock input.inputbox,
+  input.inputbox,
+  input.required,
+  div.k2AccountPage input[type="text"] {
+    width: 380px;
+  }
+  .k2AccountPage input.inputbox,
+  .k2AccountPage input[type="text"],
+  .k2AccountPage textarea#jform_profile_aboutme,
+  .k2AccountPage select {
+    width: 380px;
+  }
+  .k2AccountPage textarea#description {
+    width: 380px !important;
+  }
+  #contact-form-cont div.contact-form {
+    border: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+  }
+  #contact-form-cont div.contact-form #contact-form input.required,
+  #contact-form-cont div.contact-form #contact-form textarea {
+    width: 380px;
+  }
+  div.k2AccountPageNotice {
+    margin: 0 0 1em 0;
+  }
+  /*Pagination*/
+  div.k2Pagination li.pagination-start,
+  div.pagination li.pagination-start,
+  div.itemCommentsPagination li.pagination-start,
+  div.k2Pagination li.pagination-prev,
+  div.pagination li.pagination-prev,
+  div.itemCommentsPagination li.pagination-prev,
+  div.k2Pagination li.pagination-next,
+  div.pagination li.pagination-next,
+  div.itemCommentsPagination li.pagination-next,
+  div.k2Pagination li.pagination-end,
+  div.pagination li.pagination-end,
+  div.itemCommentsPagination li.pagination-end {
+    display: none;
+  }
+  #map {
+    height: 22em;
+  }
+  /*Sidebar*/
+  /*Mainbottom*/
+  /*Bottom*/
+  /*Footer*/.rt-block.totop {
+    display: none !important;
+  }
+  div.text404{overflow:visible;}
+}
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 479px) {
+	
+	.mb7-sa5 #rt-mainbody,.mb7-sa5 #rt-sidebar-a,.sa5-mb7 #rt-sidebar-a,.sa5-mb7 #rt-mainbody,.mb12 #rt-mainbody,.mb8-sa4 #rt-mainbody,.mb8-sa4 #rt-sidebar-a,.scientists .rt-block,.services .rt-block{padding:0 !important;}
+  #wrapper{width:320px !important;overflow:hidden;}
+  #rt-header .mod_search{margin:15px 0 0;}
+  .services .moduleItemImage{margin:0 0 20px !important;float:none !important;}
+  #rt-header input#mod-search-searchword{width:250px !important;}
+  .top_block a.moduleItemImage{float:none;display:block !important;margin:0 0 20px !important;}
+  form#comment-form input.inputbox,form#comment-form textarea#commentText {
+  width: 277px;
+}
+#rt-footer li{margin:0 4px 0 0 !important;}
+#about .catItemImageBlock{float:none !important;margin:0 0 20px !important;display:block !important;}
+.scientists li{width:50% !important;padding-bottom:10px;}
+#blog h3.catItemTitle, #blog h2.itemTitle, h3.userItemTitle{padding:0 !important}
+#search-searchword{width:180px;}
+div.itemCommentsForm form span#formLog{margin:20px 10px 0 0;}
+form#comment-form dl dt{text-align:left;}
+	
+  /*Top*/
+  /*Header*/
+  /*Menu*/
+  .sf-menu {
+    margin: 0;
+  }
+  .select-menu {
+    width: 100%;
+  }
+  /*Showcase*/
+  /*Maintop*/
+  /*Content*/
+  /*Images*/
+  #body-wrapper div.itemImageBlock,
+  div.userItemImageBlock {
+    float: none;
+  }
+  div.catItemImageBlock,
+  div.itemImageBlock {
+    margin: 0 0 1em 0;
+  }
+  span.catItemImage img,
+  span.itemImage img,
+  span.userItemImage img {
+    width: 100%;
+  }
+  span.catItemImage a,
+  span.itemImage a,
+  span.userItemImage a,
+  span.genericItemImage a {
+    display: block;
+  }
+  span.catItemImage a img,
+  span.itemImage a img,
+  span.userItemImage a img,
+  span.genericItemImage a img {
+    width: 100%;
+  }
+  span.userItemImage,
+  span.genericItemImage {
+    float: none;
+  }
+  /*Columns*/
+  div.itemContainer {
+    width: 100% !important;
+  }
+  /*Edit button*/
+  span.catItemEditLink,
+  span.itemEditLink,
+  span.userItemEditLink {
+    display: none !important;
+  }
+  /*Forms*/
+  #body-wrapper #contact-form-cont,
+  #body-wrapper #contact-address,
+  #body-wrapper .contact-misc p {
+    width: 100%;
+  }
+  form dt {
+    margin: 0;
+  }
+  .contact-form {
+    margin: 0;
+  }
+  /*INPUT FIELDS WIDTH*/
+  div.k2LoginBlock input.inputbox,
+  input.inputbox,
+  input.required,
+  div.k2AccountPage input[type="text"] {
+    width: 260px;
+  }
+  .k2AccountPage input.inputbox,
+  .k2AccountPage input[type="text"],
+  .k2AccountPage textarea#jform_profile_aboutme,
+  .k2AccountPage select {
+    width: 260px;
+  }
+  .k2AccountPage textarea#description {
+    width: 260px !important;
+  }
+  #contact-form-cont div.contact-form {
+    border: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+  }
+  #contact-form-cont div.contact-form #contact-form input.required,
+  #contact-form-cont div.contact-form #contact-form textarea {
+    width: 260px;
+  }
+  div.k2AccountPageNotice {
+    margin: 0 0 1em 0;
+  }
+  /*Pagination*/
+  div.k2Pagination li.pagination-start,
+  div.pagination li.pagination-start,
+  div.itemCommentsPagination li.pagination-start,
+  div.k2Pagination li.pagination-prev,
+  div.pagination li.pagination-prev,
+  div.itemCommentsPagination li.pagination-prev,
+  div.k2Pagination li.pagination-next,
+  div.pagination li.pagination-next,
+  div.itemCommentsPagination li.pagination-next,
+  div.k2Pagination li.pagination-end,
+  div.pagination li.pagination-end,
+  div.itemCommentsPagination li.pagination-end {
+    display: none;
+  }
+  #map {
+    height: 15em;
+  }
+  /*Sidebar*/
+  /*Mainbottom*/
+  /*Bottom*/
+  /*Footer*/.rt-block.totop {
+    display: none !important;
+  }
+  div.text404{overflow:visible;}
+div.text404 #mod-search-searchword {
+  width:270px;
+}
+body #rt-logo{max-width:100% !important;background-size:100% !important;}
+.siteName{display:block;margin-bottom:5px;}
+}

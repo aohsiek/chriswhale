@@ -1,0 +1,51 @@
+body{background:url(../images/texture.jpg) 50% 0 #fff;}
+
+/*=== COLOR VARIABLES ===*/
+/*=== DRAWER POSITION ===*/
+/*=== TOP POSITION ===*/
+/*=== HEADER POSITION ===*/
+#rt-header{background:url(../images/menu_bg.jpg) 50% 0;}
+/*=== SHOWCASE POSITION ===*/
+/*=== FEATURE POSITION ===*/
+/*=== UTILITY POSITION ===*/
+/*=== MAINTOP POSITION ===*/
+/*=== CONTENT ===*/
+/*== Portfolio Page ==*/
+#port div.itemExtraFields {
+  border-color: #e6e6e6;
+}
+/*== Contacts Page ==*/
+/*== User Profile ==*/
+div.profile dl {
+  border-bottom: 1px solid #e6e6e6;
+}
+/*== Search Page ==*/
+div.component-content > div.search #searchForm div.form-limit-and-counter {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+/*== User Registration ==*/
+/* Pagination */
+div.k2Pagination li a.pagenav,
+div.pagination li a.pagenav,
+div.itemCommentsPagination li a.pagenav {
+  background: ;
+  color: ;
+}
+div.k2Pagination li a.pagenav:hover,
+div.pagination li a.pagenav:hover,
+div.itemCommentsPagination li a.pagenav:hover {
+  color: ;
+}
+div.k2Pagination li span.pagenav,
+div.pagination li span.pagenav,
+div.itemCommentsPagination li span.pagenav {
+  color: ;
+}
+/*=== MAINBOTTOM POSITION ===*/
+/*=== BOTTOM POSITION ===*/
+/*=== FOOTER POSITION ===*/
+
+div.itemComments ul.itemCommentsList li,
+div.itemComments ul.itemCommentsList li.unpublishedComment,
+div.itemComments ul.itemCommentsList li.authorResponse{background:#f9f6f0;border:1px solid #e1e1e1;}

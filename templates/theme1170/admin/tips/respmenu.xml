@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+
+	<tip label="Menu Control" id="respmenu"><![CDATA[Choose whether or not to use the built-in menu capabilities, and what kind of menu to display.  When you select a menu type the relevant settings will display below.]]></tip>
+
+	<tip label="Position" id="respmenu-sfmenu-position"><![CDATA[The position defines where the menu will be displayed.  The space the menu occupies depends on what is displayed around the menu, so pay attention to other modules and features assigned in similar positions.]]></tip>
+
+	<tip label="Select a Menu" id="respmenu-sfmenu-menutype"><![CDATA[Pick the Joomla menu to display using the menu type.  This can be any of the already configured menus that you've setup vai Joomla.]]></tip>
+
+	<tip label="Child Items" id="respmenu-sfmenu-showAllChildren"><![CDATA[Specify if you want to enable child items display. Should be enabled to display dropdown menu.]]></tip>
+
+	<tip label="Start Level" id="respmenu-sfmenu-startLevel"><![CDATA[Level to start rendering the menu at. Setting the start and end levels to the same # and setting 'Child Items' to yes will only display that single level.]]></tip>
+	<tip label="End Level" id="respmenu-sfmenu-endLevel"><![CDATA[Level to stop rendering the menu at.]]></tip>
+	
+</gantrytips>

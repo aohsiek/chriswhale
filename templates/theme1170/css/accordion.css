@@ -1,0 +1,34 @@
+
+
+.ui-accordion { width: 100%; }
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; }
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+.ui-accordion .ui-accordion-header a { display: block;  }
+.ui-accordion-icons .ui-accordion-header a {  }
+.ui-accordion .ui-accordion-header .ui-icon { }
+.ui-accordion .ui-accordion-content { padding: 0; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; zoom: 1; }
+.ui-accordion .ui-accordion-content-active { display: block; }
+
+
+
+
+#accordion dt.ui-accordion-header{margin: 0 0 1em 0;}
+	
+#accordion dt.ui-accordion-header:hover{}
+	
+#accordion dt.ui-accordion-header a{
+	display:block;
+	line-height:36px;
+	padding:0 0 0 50px;
+	}
+	
+#accordion dd{}
+		
+#accordion dd p{margin: 0 0 1em 0;}
+	
+#accordion dd .moduleItemIntrotext{}
+
+#accordion .ui-state-active{background: url(../images/minus.png) left top no-repeat;}
+#accordion .ui-state-default{background: url(../images/plus.png) left top no-repeat;}
+	
